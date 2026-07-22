@@ -7,5 +7,5 @@ log_message() {
 
     timestamp=$(date '+%Y-%m-%d %H:%M:%S')
 
-    echo "[$timestamp] [$level] $message" >> "$LOG_FILE"
+    echo "[$timestamp] [$level] $message" | tee -a "$LOG_FILE"
 }

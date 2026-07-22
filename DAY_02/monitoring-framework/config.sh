@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 CPU_THRESHOLD=80
