@@ -26,3 +26,5 @@ systemctl is-active nginx
 CPU_THRESHOLD=1
 
 ./main.sh
+
+cat reports/report.json
