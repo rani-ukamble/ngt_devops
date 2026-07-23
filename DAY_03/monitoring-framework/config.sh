@@ -1,0 +1,9 @@
+#!/bin/bash
+
+CPU_THRESHOLD=80
+MEMORY_THRESHOLD=80
+DISK_THRESHOLD=80
+
+SERVICE_NAME="sshd"
+
+LOG_FILE="logs/monitoring.log"

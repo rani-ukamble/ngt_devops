@@ -1,4 +1,3 @@
-For Day 1, your goal is not to build a full monitoring product yet. 
 # Day 2 enhances the monitoring framework by adding network monitoring, service health validation, and an alert engine. The framework no longer only collects metrics but also evaluates them against configured thresholds and generates alerts for abnormal conditions such as high CPU usage, memory pressure, disk exhaustion, service downtime, and unusual network activity. This transforms the solution from a passive monitoring tool into a proactive observability platform.
 
 
